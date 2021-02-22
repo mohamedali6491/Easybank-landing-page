@@ -2,8 +2,11 @@ style-guide.md
 style.css
 app/scss/_globals.scss
 app/scss/_header.scss
+app/scss/_animations.scss
 app/scss/_mixins.scss
 app/scss/_variables.scss
 app/scss/style.css.map
 app/scss/style.scss
 dist/style.css.map
+script.js
+style.css
