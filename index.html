@@ -3,30 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="/dist/style.css">  
   <title>Frontend Mentor | Easybank landing page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
 </head>
 <body>
+  <header class="header">
+    <div class="overlay fade-out has-fade"></div>
+    <nav class="container flex flex-jc-sb flex-ai-c">
+      <a href="#" class="header_logo">
+        <img src="images/logo.svg" alt="Easybank">
+      </a>
+      <a href="#" id="btn_menu" class="header_toggle hide-for-desktop">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+      <div class="header__links hide-for-mobile">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+        <a href="#">Careers</a>
+      </div>
+      <a class="button header_cta hide-for-mobile" href="#">Request Invite</a>
+    </nav>
+    <div class="header_menu has-fade">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#">Blog</a>
+      <a href="#">Careers</a>
+    </div>
+  </header>
+  
+  
+  
+  
+  
 
-  Home
-  About
-  Contact
-  Blog
-  Careers
-
-  Request Invite
+  
 
 
 
-  Next generation digital banking
+   Next generation digital banking
 
   Take your financial life online. Your Easybank account will be a one-stop-shop 
   for spending, saving, budgeting, investing, and much more.
@@ -91,11 +115,12 @@
 
   Request Invite
 
-  © Easybank. All Rights Reserved
+  © Easybank. All Rights Reserved 
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Mohamed Ibrahim</a>.
   </div>
+  <script src="app/js/script.js"></script>
 </body>
 </html>
